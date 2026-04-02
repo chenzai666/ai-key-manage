@@ -6,24 +6,25 @@ AI Key 管理平台，Docker 部署版本。
 
 
 # 克隆代码
-git clone https://github.com/chenzai666/ai-key-manage.git
-cd ai-key-manage
+`git clone https://github.com/chenzai666/ai-key-manage.git`
+
+`cd ai-key-manage`
 
 # 构建并启动
-docker compose up -d --build
+`docker compose up -d --build`
 
 # 查看状态
-docker compose ps
+`docker compose ps`
 
 # 查看日志
-docker compose logs -f
+`docker compose logs -f`
 
 
 ## 更新部署
 
 
-git pull
-docker compose up -d --build
+`git pull`
+`docker compose up -d --build`
 
 
 ## 访问地址
@@ -44,16 +45,16 @@ docker compose up -d --build
 常用命令：
 
 # 重启
-docker compose restart
+`docker compose restart`
 
 # 停止
-docker compose down
+`docker compose down`
 
 # 强制重建
-docker compose up -d --build --no-cache
+`docker compose up -d --build --no-cache`
 
 # 进入容器
-docker compose exec ai-key-manage sh
+`docker compose exec ai-key-manage sh`
 
 
 ## 目录结构
