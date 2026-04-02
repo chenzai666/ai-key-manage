@@ -24,6 +24,7 @@ AI Key 管理平台，Docker 部署版本。
 
 
 `git pull`
+
 `docker compose up -d --build`
 
 
